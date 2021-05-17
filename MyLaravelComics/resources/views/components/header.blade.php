@@ -13,7 +13,7 @@
   </nav>
 
   <nav class="nav-down">
-    <ul class="justify-content-center">
+    <ul class="justify-content-spacebetween">
       <li>
         <a href="#">
           <img class="logo"src="{{ asset('/storage/assets/dc-logo.png') }}" alt="">
