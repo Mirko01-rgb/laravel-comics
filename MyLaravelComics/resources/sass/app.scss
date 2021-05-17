@@ -22,6 +22,24 @@
   justify-content: space-between;
 
 }
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wrap{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .white{
   color: white;
 }
@@ -30,9 +48,10 @@
 ul{
   height: 100%;
   list-style-type: none;
-  a{
-    text-decoration: none;
-  }
+
+}
+a{
+  text-decoration: none;
 }
 
 //nav-up
@@ -74,10 +93,53 @@ ul{
   background-size: cover;
 }
 
+
 //sectionfilm
 .container-film{
-  height: 500px;
-  background-color: lightgrey;
+  min-height: 500px;
+  background-color: black;
+  padding: 40px 100px;
+  position: relative;
+
+  .current-series{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    margin-left: 10px;
+    position: absolute;
+    top:-3.5%;
+
+  }
+  .box{
+    height: 220px;
+    width: 160px;
+    //background-color: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    .box-img{
+      height: 170px;
+      width: 100%;
+      // background-color: red;
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .box-title{
+      min-height: 50px;
+      width: 100%;
+      // background-color: green;
+      padding-top: 5px;
+    }
+  }
+}
+.button{
+  width: 15%;
+  padding: 10px 20px;
+  background-color: blue;
+  margin-top: 30px;
+  text-align: center;
 }
 
 //section-buy
@@ -86,7 +148,12 @@ ul{
   background-color: blue;
   padding: 0px 100px;
   .img-info{
-    width: 40px;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 40px;
+  }
+  .font-size{
+    font-size: 12px;
   }
 }
 
@@ -96,6 +163,6 @@ ul{
 //footer
 .footer-up{
   height: 300px;
-  background-color: red;
+  background-color: black;
 
 }
