@@ -10,7 +10,7 @@
     @include('components.header')
     @yield('content')
     @include('components.footer')
-    <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
+    {{-- <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt=""> --}}
 
   </body>
 </html>
