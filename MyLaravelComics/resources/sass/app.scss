@@ -40,10 +40,33 @@
   align-items: center;
 }
 
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap{
+  flex-wrap: wrap
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+}
+
 .white{
   color: white;
 }
-
+.grey{
+  color: grey;
+}
+.blue{
+  color: lightblue;
+}
 // header
 ul{
   height: 100%;
@@ -165,14 +188,43 @@ a{
   height: 400px;
   background-color: black;
   background-image: url('/storage/assets/footer-bg.jpg');
-  position: relative;
-  .img-footer-logo{
-    width: 40%;
+  padding: 0 100px;
+  .box-listato{
     height: 100%;
-    position: absolute;
-    right: 10%;
+    width: 60%;
+    padding-bottom: 60px;
+    // background-color: yellow;
+    .list{
+      height: 90%;
+      width: 100%;
+      // background-color: green;
+      .padding-list{
+        padding-right: 50px;
+      }
+      .padding{
+        padding: 20px 0 10px;
+      }
+    }
+    .paragraph{
+      height: 10%;
+      width: 100%;
 
-
+      // background-color: white;
+    }
   }
+  .box-img{
+    height: 100%;
+    width: 40%;
+    // background-color: red;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
 
+.footer-down{
+  height: 80px;
+  width: 100%;
+  background-color: red;
 }
