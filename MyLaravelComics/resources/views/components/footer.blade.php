@@ -1,5 +1,5 @@
 <footer>
   <div class="footer-up">
-    <h1>ciaoo</h1>
+    <img class="img-footer-logo"src="{{ asset('/storage/assets/dc-logo-bg.png') }}" alt="">
   </div>
 </footer>

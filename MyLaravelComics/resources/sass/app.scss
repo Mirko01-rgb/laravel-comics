@@ -162,7 +162,17 @@ a{
 
 //footer
 .footer-up{
-  height: 300px;
+  height: 400px;
   background-color: black;
+  background-image: url('/storage/assets/footer-bg.jpg');
+  position: relative;
+  .img-footer-logo{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 10%;
+
+
+  }
 
 }
