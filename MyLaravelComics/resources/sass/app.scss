@@ -293,9 +293,9 @@ a{
   min-height: 150px;
   padding:  80px 160px;
   .box-fumetti{
-    height:280px;
+    min-height:280px;
     width: 600px;
-    background-color: red;
+    // background-color: red;
     margin-right: 40px;
 
     .price{
@@ -326,20 +326,19 @@ a{
 }
 
 .container-talent{
-  height: 300px;
+  height: 350px;
   background: lightgrey;
   padding: 40px 160px;
   .box-talent{
     height: 100%;
     width: 50%;
     background-color: red;
-    .title{
-      margin-bottom: 30px;
-    }
-    .art{
-      height: 60px;
+
+    .box-art{
+      min-height: 60px;
       width: 100%;
-      background-color: grey;
+      background-color: yellow;
+      border-top: 1px solid grey;
     }
     .written{
       height: 60px;
@@ -351,10 +350,19 @@ a{
     height: 100%;
     width: 50%;
     background-color: green;
-    .art{
-      height: 60px;
+
+    .box-series{
+      min-height: 40px;
       width: 100%;
-      background-color: grey;
+      background-color: yellow;
+      border-top: 1px solid grey;
     }
   }
+}
+.title{
+  margin-bottom: 30px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid grey;
 }

@@ -21,7 +21,7 @@
 
           <div class="box-title">
             <p>
-              <a  class="white" href="{{route('elem', $loop -> index)}}">
+               <a  class="white" href="{{route('elem', $loop -> index)}}"> {{-- route = 'elem' è il name di web.php --}}
                 {{$item['title']}}
               </a>
             </p>

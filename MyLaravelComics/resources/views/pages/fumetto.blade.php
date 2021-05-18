@@ -33,24 +33,36 @@
   <div class="container-talent flex">
     <div class="box-talent">
       <h1 class="title">Talent</h1>
-      <div class="art">
-
-      </div>
-      <div class="art">
+      <div class="box-art border flex">
+       <p>Art by: </p>
+       <div class="">
+         @foreach ($elem['artists'] as $item)
+           <span class="text">{{$item}}</spanclass="text">
+         @endforeach
+       </div>
+     </div>
+      <div class="box-art border-bottom">
+        <p>Written by:</p>
+        @foreach ($elem['writers'] as $item)
+          <span>{{$item}}</span>
+        @endforeach
 
       </div>
 
     </div>
     <div class="box-specs">
-      <h1>Specs</h1>
-      <div class="art">
-
+      <h1 class="title">Specs</h1>
+      <div class="box-series">
+        <span>Series:</span>
+        <span>{{$elem['series']}}</span>
       </div>
-      <div class="art">
-
+      <div class="box-series">
+        <span>U.S Price:</span>
+        <span>{{$elem['price']}}</span>
       </div>
-      <div class="art">
-
+      <div class="box-series border-bottom">
+        <span>On Sale Date:</span>
+        <span>{{$elem['sale_date']}}</span>
       </div>
 
     </div>
