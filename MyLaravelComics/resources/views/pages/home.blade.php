@@ -1,8 +1,6 @@
 @extends('layouts.main-layout')
 @section('content')
 
-  <div class="jumbotron"></div>
-
   {{-- sectionfilm --}}
   <section class="container-film">
     <div class="current-series align-center">
@@ -23,7 +21,7 @@
 
           <div class="box-title">
             <p>
-              <a  class="white" href="#">
+              <a  class="white" href="{{route('elem', $loop -> index)}}">
                 {{$item['title']}}
               </a>
             </p>

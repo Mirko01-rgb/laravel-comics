@@ -9,4 +9,6 @@ Route::get('/', function () {
 });
 
 Route::get('home', 'TestController@home');
-Route::get('home2', 'TestController@home2');
+
+Route::get('/elem/{index}', 'TestController@element')
+       -> name('elem');
