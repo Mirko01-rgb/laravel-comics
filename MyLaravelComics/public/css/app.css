@@ -52,6 +52,11 @@
   display: flex;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
 .flex-start {
   display: flex;
   justify-content: flex-start;
@@ -65,8 +70,12 @@
   color: grey;
 }
 
-.blue {
+.lightblue {
   color: lightblue;
+}
+
+.blue {
+  color: blue;
 }
 
 ul {
@@ -84,8 +93,13 @@ a {
   padding-right: 100px;
 }
 
-.nav-up .padding {
+.nav-up .padding-nav-up {
   padding-right: 50px;
+}
+
+.nav-up .padding-nav-up .far {
+  font-size: 10px;
+  vertical-align: top;
 }
 
 .nav-up .select-nav-up {
@@ -106,9 +120,19 @@ a {
   border: none;
 }
 
-.nav-down input {
+.nav-down .input-search {
+  position: relative;
+  width: 180px;
+}
+
+.nav-down .input-search input {
   border: none;
   border-bottom: 2px solid blue;
+}
+
+.nav-down .input-search .fa-search {
+  position: absolute;
+  right: 25px;
 }
 
 .jumbotron {
@@ -224,6 +248,16 @@ a {
 .footer-down {
   height: 80px;
   width: 100%;
-  background-color: red;
+  background-color: black;
+  padding: 0 100px;
+}
+
+.footer-down .border {
+  padding: 10px;
+  border: 2px solid blue;
+}
+
+.footer-down .flex-center .padding-follow {
+  padding-right: 20px;
 }
 

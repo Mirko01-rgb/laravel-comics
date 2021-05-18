@@ -1,8 +1,8 @@
 <header>
   <nav class="nav-up ">
     <ul class="justify-content-end">
-      <li class="padding">
-        <a class="white" href="#">DC POWER VISA</a>
+      <li class="padding-nav-up">
+        <a class="white" href="#">DC POWER VISA <i class="far fa-registered white"></i> </a>
       </li>
       <li>
         <select class="select-nav-up white" name="">
@@ -52,8 +52,9 @@
           <option value="">SHOP</option>
         </select>
       </li>
-      <li>
-        <input type="text" name="" value="" placeholder="Search">
+      <li class="input-search">
+        <input type="text" name="" value="" placeholder="                        Search">
+        <i class="fas fa-search"></i>
       </li>
     </ul>
 

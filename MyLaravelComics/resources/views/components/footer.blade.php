@@ -101,8 +101,8 @@
         </ul>
       </div>
       <div class="paragraph">
-        <p class=" grey">All Site Content TM and 2020 Dc Entertainment, unless otherwise <a href="#" class="blue">noted here</a>.
-         All rights reserved. <a class="blue" href="#">Cookies Settings</a>
+        <p class=" grey">All Site Content TM and <i class="far fa-copyright grey"></i> 2020  Dc Entertainment, unless otherwise <a href="#" class="lightblue">noted here</a>.
+         All rights reserved. <a class="lightblue" href="#">Cookies Settings</a>
         </p>
       </div>
     </div>
@@ -112,8 +112,28 @@
     </div>
   </div>
 
-  <div class="footer-down">
+  <div class="footer-down justify-content-spacebetween">
+    <p class="border">
+      <a class="white " href="#">SIGN-UP NOW!</a>
+    </p>
 
+    <div class="flex-center">
+      <p class=" padding-follow">
+        <a class="blue" href="#">FOLLOW US</a>
+      </p>
+      <a href="#">
+        <img class="grey padding-follow " src="{{asset('/storage/assets/footer-periscope.png')}}" alt="">
+      </a>
+      <a href="#">
+        <img class="grey padding-follow" src="{{asset('/storage/assets/footer-pinterest.png')}}" alt="">
+      </a>
+      <a href="#">
+        <img class="grey padding-follow" src="{{asset('/storage/assets/footer-twitter.png')}}" alt="">
+      </a>
+      <a href="#">
+        <img class="grey padding-follow" src="{{asset('/storage/assets/footer-youtube.png')}}" alt="">
+      </a>
+    </div>
   </div>
 
 

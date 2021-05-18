@@ -53,6 +53,11 @@
   display: flex;
 }
 
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
 .flex-start{
   display: flex;
   justify-content: flex-start;
@@ -64,8 +69,12 @@
 .grey{
   color: grey;
 }
-.blue{
+.lightblue{
   color: lightblue;
+}
+
+.blue{
+  color: blue;
 }
 // header
 ul{
@@ -82,8 +91,12 @@ a{
  height: 30px;
  background-color:blue;
  padding-right: 100px;
- .padding{
+ .padding-nav-up{
    padding-right: 50px;
+   .far{
+     font-size: 10px;
+     vertical-align:top;
+   }
  }
  .select-nav-up{
    background-color:blue;
@@ -102,11 +115,24 @@ a{
   }
   .select-nav-down{
     border: none;
+
   }
-  input{
-    border: none;
-    border-bottom: 2px solid blue;
+  .input-search{
+    position: relative;
+    width: 180px;
+    // border: 1px solid black;
+    input{
+      border: none;
+      border-bottom: 2px solid blue;
+
+    }
+    .fa-search{
+      position: absolute;
+      right: 25px;
+
+    }
   }
+
 }
 
 //main
@@ -226,5 +252,17 @@ a{
 .footer-down{
   height: 80px;
   width: 100%;
-  background-color: red;
+  background-color: black;
+  padding: 0 100px;
+  .border{
+    padding: 10px;
+    border: 2px solid blue;
+  }
+
+  .flex-center{
+    .padding-follow{
+      padding-right: 20px;
+    }
+  }
+
 }
